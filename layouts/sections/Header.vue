@@ -3,26 +3,31 @@
     <!-- -----------------------------------------------
           Start Header
     ----------------------------------------------- -->
-    <v-toolbar app height="150"
+    <v-toolbar app height="80px"
+    style="margin-top:85px;"
     >
   <v-row
     align="bottom"
     justify="space-around"
     
   >
-    <v-btn>Normal</v-btn>
-    <v-btn color="primary">
-      Primary
+
+    <v-btn style="font-family : 'UnifrakturMaguntia'">
+      Femmes
     </v-btn>
-    <v-btn color="error">
-      Error
+    <v-btn>
+      Hommes
     </v-btn>
-    <v-btn disabled>
-      Disabled
+    <v-btn>
+      Accessoires
+    </v-btn>
+    <v-btn>
+      Vinyls/CD
     </v-btn>
   </v-row>
     </v-toolbar>
-    <v-app-bar app absolute class="app-header" flat elevate-on-scroll color="black">
+    <v-app-bar app absolute class="app-header" flat elevate-on-scroll color="black" style="font-family : 'Cinzel Decorative'">
+      La Confrerie des Metalleux
       <v-container class="py-0 fill-height">
         <!-- Logo -->
         <Logo />
