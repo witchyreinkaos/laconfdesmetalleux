@@ -9,37 +9,30 @@
         First Column
       ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Address</h4>
-          <p class="mt-10">71 Amsteroum Avenue Cronish Night, NY 35098</p>
+          <h4 class="font-weight-regular font-18">Notre Adresse</h4>
+          <p class="mt-10">17 Rue Victor Hugo, 38000 Grenoble</p>
         </v-col>
         <!-- -----------------------------------------------
         Second Column
       ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Phone</h4>
-          <p class="mt-10 mb-0">Reception : +205 123 4567</p>
-          <p>Office : +207 235 7890</p>
+          <h4 class="font-weight-regular font-18">Téléphone</h4>
+          <p class="mt-10 mb-0">+3341234567</p>
         </v-col>
         <!-- -----------------------------------------------
         Third Column
       ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Email</h4>
+          <h4 class="font-weight-regular font-18">Notre E-mail</h4>
           <p class="mt-10 mb-0">
-            Office : <a class="dark-link" href="/">info@wrappixel.com</a>
-          </p>
-          <p>
-            Site :
-            <a class="dark-link" href="https://www.wrappixel.com/"
-              >wrappixel.com</a
-            >
+             <a class="dark-link" href="/">info@confmetal.net</a>
           </p>
         </v-col>
         <!-- -----------------------------------------------
         Fourth Column
       ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Social</h4>
+          <h4 class="font-weight-regular font-18"> Nos Réseaux Sociaux</h4>
 
           <div class="social-icons mt-10">
             <a href="#">
@@ -49,7 +42,7 @@
               <i class="mdi mdi-twitter"></i>
             </a>
             <a href="#">
-              <i class="mdi mdi-google-plus"></i>
+              <i class="mdi mdi-reddit"></i>
             </a>
             <a href="#">
               <i class="mdi mdi-youtube"></i>
@@ -63,14 +56,14 @@
       <div class="footer-bottom-bar font-14">
         <div class="d-block d-md-flex align-center">
           <p>
-            All Rights Reserved by
-            <a href="https://www.wrappixel.com/" class="link">wrappixel.com</a>
+            
+            <a href="https://www.project-qrow.net/" class="link">reinkaos 2022</a>
           </p>
           <div class="ml-auto">
             <div class="d-flex align-center">
-              <a href="/" class="link px-4">Terms of Use</a>
-              <a href="/" class="link px-4">Legal Disclaimer</a>
-              <a href="/" class="link px-4">Privacy Policy</a>
+              <a href="/" class="link px-4">Contrat Géneral De Vente</a>
+              <a href="/" class="link px-4">Juridiction/Pays de Vente</a>
+              <a href="/" class="link px-4">Confidentialité</a>
             </div>
           </div>
         </div>

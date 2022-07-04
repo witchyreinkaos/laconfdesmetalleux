@@ -12,7 +12,7 @@
     
   >
 
-    <v-btn style="font-family : 'UnifrakturMaguntia'">
+    <v-btn >
       Femmes
     </v-btn>
     <v-btn>
@@ -61,33 +61,24 @@
         </div>
       </v-container>
     </v-app-bar>
+
     <!-- -----------------------------------------------
           End Header
     ----------------------------------------------- -->
-    <v-carousel v-model="model">
+
+  <v-carousel>
     <v-carousel-item
-      v-for="(color, i) in colors"
-      :key="color"
-    >
-      <v-sheet
-        :color="color"
-        height="100%"
-        tile
-      >
-        <v-row
-          class="fill-height"
-          align="center"
-          justify="center"
-        >
-          <div class="text-h2">
-            Slide {{ i + 1 }}
-          </div>
-        </v-row>
-      </v-sheet>
-    </v-carousel-item>
+      v-for="(item,i) in items"
+      :key="i"
+      :src="item.src"
+      reverse-transition="fade-transition"
+      transition="fade-transition"
+    ></v-carousel-item>
   </v-carousel>
-  </div>
+
+</div>
 </template>
+
 
 <script>
 export default {
@@ -98,8 +89,31 @@ export default {
   },
   data() {
     return {
-      isActive: false
+      //isActive: false
+          items: [
+          {
+            src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LZ01M8UP5wRNxF4Dx4ph3QHaHa%26pid%3DApi&f=1',
+          },
+          {
+            src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmetalmerchtshirts.com%2Fwp-content%2Fuploads%2F2018%2F07%2FDeath-Angel-T-Shirt-Death-Angel-The-Evil-Divide-Cover-Tee-Shirt-1.jpg&f=1&nofb=1',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          },
+        ],
+        slides: [
+          'First',
+          'Second',
+          'Third',
+          'Fourth',
+          'Fifth',
+        ],
+      
     };
+    
   },
   methods: {
     toggleClass: function(event) {
