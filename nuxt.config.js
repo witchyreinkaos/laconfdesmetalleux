@@ -19,12 +19,9 @@ export default {
     {        rel: "stylesheet",        
     href: "https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap",
   },
-  {  
-  href: "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap"
-  },      
-],
+    ],
   },
-
+//La police en haut laissez passer !
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/scss/style.scss"],
