@@ -24,7 +24,6 @@ export default {
     };
   },
   components: {
-    Header: () => import("@/layouts/sections/Header"),
     Footer: () => import("@/layouts/sections/Footer")
   },
   methods: {}

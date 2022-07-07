@@ -51,7 +51,7 @@
                 color="white"
                 nuxt
                 target="_blank"
-                href=""
+                href="http://localhost:3000/connection"
                 elevation="0"
               >
                 Connection 
@@ -73,6 +73,7 @@
       :src="item.src"
       reverse-transition="fade-transition"
       transition="fade-transition"
+      contain
     ></v-carousel-item>
   </v-carousel>
 
@@ -98,10 +99,10 @@ export default {
             src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmetalmerchtshirts.com%2Fwp-content%2Fuploads%2F2018%2F07%2FDeath-Angel-T-Shirt-Death-Angel-The-Evil-Divide-Cover-Tee-Shirt-1.jpg&f=1&nofb=1',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F81qMBLp-2lL._AC_UL1500_.jpg&f=1&nofb=1',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.merchenligne.fr%2Fultravomit%2F1415-thickbox_01prem%2Ftshirt-noir-ultra-vomit-evier-metal.jpg&f=1&nofb=1',
           },
         ],
         slides: [
